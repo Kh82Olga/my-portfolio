@@ -1,7 +1,7 @@
 import project1 from "./../../img/projects/01.jpg";
-import project2 from "./../img/projects/02.jpg";
+import project2 from "./../../img/projects/02.jpg";
 import project1big from "./../../img/projects/01-big.jpg";
-import project2big from "./../img/projects/02-big.jpg";
+import project2big from "./../../img/projects/02-big.jpg";
 
 const allProjects = [
   {
