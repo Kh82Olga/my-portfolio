@@ -2,6 +2,7 @@ import React from 'react';
 import "./footerStyle.css";
 import linkedIn from "./../../img/icons/linkedIn.svg";
 import gitHub from "./../../img/icons/gitHub.svg";
+import mail1 from "./../../img/icons/icons8-mail.svg";
 
 const Footer = () => {
   return (
@@ -17,6 +18,11 @@ const Footer = () => {
               <li className="social__item">
                 <a href="https://www.linkedin.com/in/olga-kharchuk-46012417a">
                   <img src={linkedIn} alt="Link" />
+                </a>
+              </li>
+              <li className="social__item">
+                <a href="mailto:kh82olga@protonmail.com">
+                  <img src={mail1} alt="Link" />
                 </a>
               </li>
             </ul>
