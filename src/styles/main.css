@@ -103,7 +103,7 @@ body {
 
 /* Btn */
 
-.btn {
+/* .btn {
 	display: inline-block;
 	height: 48px;
 	padding: 12px 28px;
@@ -120,7 +120,27 @@ body {
 
 .btn:hover {
 	opacity: 0.8;
-}
+} */
+.btn {
+	display: inline-block;
+	height: 48px;
+	padding: 12px 28px;
+
+	border-radius: 5px;
+	border-color: var(--purple);
+	color: #fff;
+	letter-spacing: 0.15px;
+	font-size: 16px;
+	font-weight: 500;
+	box-shadow: 0 0 40px 40px var(--purple) inset, 0 0 0 0 var(--purple);
+	-webkit-transition: all 150ms ease-in-out;
+	transition: all 150ms ease-in-out;
+  }
+  .btn:hover {
+	box-shadow: 0 0 10px 0 var(--purple) inset, 0 0 10px 4px var(--purple);
+	font-size: 17px;
+	font-weight:bolder;
+  }
 
 .btn:active {
 	position: relative;
