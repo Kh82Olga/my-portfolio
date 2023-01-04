@@ -11,13 +11,13 @@ const allProjects = [
     imgBig: project1big,
     gitHubLink: "https://github.com/Kh82Olga/EindWerk_CinemaTicket",
   },
-  {
+  /* {
     title: "Coming soon...",
     skills: "Angular, HTML, CSS, MySQL",
     img: project2,
     imgBig: project2big,
     gitHubLink: "https://github.com/Kh82Olga",
-  },
+  }, */
   
 ];
 
