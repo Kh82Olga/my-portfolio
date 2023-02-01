@@ -11,13 +11,14 @@ const allProjects = [
     imgBig: project1big,
     gitHubLink: "https://github.com/Kh82Olga/EindWerk_CinemaTicket",
   },
-  /* {
-    title: "Coming soon...",
-    skills: "Angular, HTML, CSS, MySQL",
+  {
+    title: "Movies",
+    skills: "React, HTML, CSS, RESTful API",
     img: project2,
     imgBig: project2big,
-    gitHubLink: "https://github.com/Kh82Olga",
-  }, */
+    gitHubLink: "https://github.com/Kh82Olga/movies-project",
+    webLink: "https://remarkable-longma-e33ca5.netlify.app/"
+  },
   
 ];
 
